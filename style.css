@@ -1,0 +1,184 @@
+/* header and main */
+* {
+  box-sizing: border-box;
+}
+
+.header,
+.main {
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.header {
+  background: rgb(0, 0, 0);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.car-models {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 10%;
+}
+
+.car-model {
+  margin: 0 10px;
+}
+
+/* button */
+
+.btn a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #a3a3a3;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover:before {
+  transform: scaleX(1);
+}
+
+
+
+.ht {
+  font-family: 'Caveat', cursive;
+}
+
+h3 {
+  font-family: 'Agdasima', sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 725px;
+}
+
+.btn-bottom {
+
+  padding: 25px;
+}
+
+.btn1 {
+  border: solid white 2px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Agdasima', sans-serif;
+  font-size: 25px;
+  width: 150px;
+  height: 10px 10px;
+  text-align: center;
+}
+
+.btn1:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid black;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.page1 {
+
+ 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  /* Updated to 100vh */
+  width: 100%;
+  margin-top: 70px;
+  color: rgb(238, 235, 235);
+  text-align: left;
+  overflow: auto;
+
+
+}
+
+.page2 {
+
+  background-color: rgba(0, 0, 0, 0.426);
+  backdrop-filter: blur(5px);
+}
+
+.specs{
+    
+    padding: 0 2em;
+
+}
+
+.specs ul{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.specs ul li{
+  padding: 1em 0;
+  border-bottom: 1px #ccc solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span{font-family: 'Ysabeau Office', sans-serif;
+
+
+
+
+
+}
